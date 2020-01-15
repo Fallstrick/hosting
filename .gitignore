@@ -12,3 +12,5 @@ doc/api/
 
 # Remove idea tmp
 .idea/
+
+.DS_Store
