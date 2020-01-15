@@ -3,11 +3,15 @@ import 'package:fallstrick_hosting/src/context/http_context.dart';
 import 'package:fallstrick_hosting/src/delegate/request_delegate.dart';
 import 'package:fallstrick_hosting/src/middleware/middleware.dart';
 
+/// Can  build app Fallstrick by [ApplicationBuilder]
 class ApplicationBuilder implements IApplicationBuilder {
+  /// [Middleware] collection
   List<Middleware> _middlewareList = [];
 
+  /// Method to build a Fallstrick app
   @override
   RequestDelegate build() {
+    /// to order FIFO
     _middlewareList = _middlewareList.reversed.toList();
     return (httpContext) {
       RequestDelegate defaultMiddleware(HttpContext _httpContext) {
@@ -26,6 +30,7 @@ class ApplicationBuilder implements IApplicationBuilder {
     };
   }
 
+  /// Method to add Middleware for Fallstrick app
   @override
   IApplicationBuilder use(middleware) {
     _middlewareList.add(middleware);

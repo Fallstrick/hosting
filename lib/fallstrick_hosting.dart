@@ -1,6 +1,4 @@
-/// Support for doing something awesome.
-///
-/// More dartdocs go here.
+/// hosting for fallstrick
 library fallstrick_hosting;
 
 export 'package:fallstrick_hosting/src/delegate/request_delegate.dart';

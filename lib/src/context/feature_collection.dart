@@ -1,7 +1,9 @@
+/// [FeatureCollection] used to collect [HttpRequest] and [HttpResponse]
 class FeatureCollection {
   final Map<Type, Object> _features = {};
 }
 
+/// Extension method to get and set the [FeatureCollection]
 extension FeatureCollectionExtension on FeatureCollection {
 // ignore: always_declare_return_types
   get<T>() {

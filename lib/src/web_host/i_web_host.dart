@@ -1,3 +1,5 @@
-abstract class IWebHost{
+/// Interface for [WebHost]
+abstract class IWebHost {
+  ///  Start [WebHost]
   Future run();
 }
