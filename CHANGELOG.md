@@ -1,3 +1,3 @@
-## 1.0.0
+## 0.0.1
 
-- Initial version, created by Stagehand
+- publish beta version,and can use hosting to build a simple app
