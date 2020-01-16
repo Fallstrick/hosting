@@ -1,7 +1,8 @@
 name: fallstrick_hosting
-description: A starting point for Dart libraries or applications.
-# version: 1.0.0
-# homepage: https://www.example.com
+description: Code for hosting and starting up an Fallstrick application
+version: 0.0.1
+homepage: https://github.com/Fallstrick/hosting
+author: Fallstrick <fallstrick@126.com>
 
 environment:
   sdk: '>=2.7.0 <3.0.0'
