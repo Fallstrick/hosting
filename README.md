@@ -1,5 +1,6 @@
  <center style="font-size:30px;">fallstrick_hosting</center>
-![language](https://woolson.gitee.io/npmer-badge/ilcr-none-none-dart-ffffff-555555-%3E=2.7.0%20%3C3.0.0-ffffff-007ec6-r-t-t.svg)![license](https://img.shields.io/github/license/Fallstrick/hosting)
+![language](https://woolson.gitee.io/npmer-badge/ilcr-none-none-dart-ffffff-555555-%3E=2.7.0%20%3C3.0.0-ffffff-007ec6-r-t-t.svg)
+![license](https://img.shields.io/github/license/Fallstrick/hosting)
 
 
 
