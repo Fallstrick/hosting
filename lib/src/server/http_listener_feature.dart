@@ -23,6 +23,9 @@ class HttpRequestFeature implements IHttpRequestFeature {
   /// Get [HttpServer]'s [HttpRequest] url to Fallstrick app
   @override
   Uri get url => _context.uri;
+
+  @override
+  String get method => _context.method;
 }
 
 /// [HttpResponseFeature] is the bridge

@@ -23,9 +23,9 @@ class HttpListenerServer implements IServer {
   Future runAsync(handler) async {
     var _httpServer = await io.HttpServer.bind(_address, _port);
     print('[Info]: Server started and is listening on:$_address:$_port');
-    _httpServer.listen((request) async {
+    await for (io.HttpRequest request in _httpServer) {
       await _handleRequest(request, handler);
-    });
+    }
   }
 
   /// Handle request method which get [HttpContext] from [HttpServer]

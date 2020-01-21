@@ -32,6 +32,9 @@ class HttpRequest {
   /// get method for body in [HttpRequest]
   Stream get body => _feature.body;
 
+  /// get method for method in [HttpRequest]
+  String get method => _feature.method;
+
   HttpRequest(FeatureCollection features) {
     _feature = features.get<IHttpRequestFeature>();
   }
@@ -64,7 +67,7 @@ class HttpResponse {
 
 /// Extension method for [HttpResponse] to output response
 extension HttpResponseExtension on HttpResponse {
-  Future writeAsync(String contents) async {
-    await body.write(contents);
+  Future writeAsync([Object obj = '']) async {
+    await body.write(obj);
   }
 }
