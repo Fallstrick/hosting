@@ -1,6 +1,6 @@
 name: fallstrick_hosting
 description: Code for hosting and starting up an Fallstrick application
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/Fallstrick/hosting
 
 environment:

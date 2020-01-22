@@ -6,3 +6,7 @@
 
 - add a Method attribute to HttpRequest
 - add HttpStatus,HttpMethod,ContentType constant
+
+## 0.0.3 
+
+- change ContentType’s return to String
