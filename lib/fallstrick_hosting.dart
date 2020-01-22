@@ -7,3 +7,4 @@ export 'package:fallstrick_hosting/src/web_host/web_host_builder.dart';
 export 'package:fallstrick_hosting/src/web_host/i_web_host_builder.dart';
 export 'package:fallstrick_hosting/src/constant/http_status.dart';
 export 'package:fallstrick_hosting/src/constant/http_method.dart';
+export 'package:fallstrick_hosting/src/constant/content_type.dart';
